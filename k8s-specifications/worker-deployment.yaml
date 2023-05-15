@@ -15,6 +15,5 @@ spec:
         app: worker
     spec:
       containers:
-        - image: worker-golang:latest
-          imagePullPolicy: Never
+        - image: phucnvh/votingapp-worker
           name: worker
