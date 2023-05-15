@@ -15,5 +15,5 @@ spec:
         app: worker
     spec:
       containers:
-        - image: phucnvh/votingapp-worker
+        - image: nvhp46/votingapp-worker:latest
           name: worker

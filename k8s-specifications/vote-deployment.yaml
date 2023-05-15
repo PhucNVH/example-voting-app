@@ -15,7 +15,7 @@ spec:
         app: vote
     spec:
       containers:
-        - image: phucnvh/votingapp-vote
+        - image: nvhp46/votingapp-vote:latest
           name: vote
           ports:
             - containerPort: 80

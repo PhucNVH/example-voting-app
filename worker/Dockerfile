@@ -14,4 +14,4 @@ FROM alpine:3.14.2
 RUN apk --no-cache add ca-certificates
 COPY --from=builder /worker/worker /worker
 
-CMD ["/worker/worker"]
+CMD ["/worker"]
