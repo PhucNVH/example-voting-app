@@ -49,7 +49,7 @@ jobs:
       ### defaults to:
       image-names: |
         ghcr.io/phucnvh/votingapp-worker
-        nvhp46/votingapp_worker
+        nvhp46/votingapp-worker
 
       ### REQUIRED set rules for tagging images, based on special action syntax:
       ### https://github.com/docker/metadata-action#tags-input

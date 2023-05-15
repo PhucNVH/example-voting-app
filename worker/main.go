@@ -34,7 +34,7 @@ func main() {
 			var v Vote
 			json.Unmarshal([]byte(vote), &v)
 
-			fmt.Printf("Processing vote for '%s' by '%s'\n", v.Vote, v.VoterID)
+			fmt.Printf("Processing vote 2 for '%s' by '%s'\n", v.Vote, v.VoterID)
 			//update vote to db
 			//check if db is connected
 			if db.Ping() != nil {
