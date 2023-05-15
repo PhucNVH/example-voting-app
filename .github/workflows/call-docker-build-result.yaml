@@ -49,7 +49,7 @@ jobs:
       ### defaults to:
       image-names: |
         ghcr.io/phucnvh/votingapp-result
-        phucnvh/votingapp-result
+        nvhp46/votingapp-result
 
       ### REQUIRED set rules for tagging images, based on special action syntax:
       ### https://github.com/docker/metadata-action#tags-input
@@ -76,4 +76,4 @@ jobs:
 
       ### Create a PR comment with image tags and labels
       ### defaults to false
-      # comment-enable: false
+      comment-enable: true
